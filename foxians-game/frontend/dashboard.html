@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="./Styles/dashboard.css" />
+    <script src="./dashboard.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="attempt-container">
+        <h1 id="dashboard-wish-msg">Good job</h1>
+        <div id="current-attempt">
+            <div class="current-attempt-header">
+                <span>Name</span>
+                <span>Score</span>
+                <span>Time taken</span>
+            </div>
+            <div class="current-attempt-data">
+                <span>Kus</span>
+                <span>12.2</span>
+                <span>2.5 minutes</span>
+            </div>
+        </div>
+        <div class="milestone-section">
+            <div id="profit-section">
+                <div class="single-stone">
+                    <span class="single-stone-number">1</span>
+                    <span class="single-stone-msg">this is what ...</span>
+                </div>
+
+                <div class="single-stone">
+                    <span class="single-stone-number">4</span>
+                    <span class="single-stone-msg">another thing is what ...</span>
+                </div>
+            </div>
+            <div id="loss-section">
+                <div class="single-stone">
+                    <span class="single-stone-number">1</span>
+                    <span class="single-stone-msg">this is what ...</span>
+                </div>
+
+                <div class="single-stone">
+                    <span class="single-stone-number">4</span>
+                    <span class="single-stone-msg">another thing is what ...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="lead-container">
+        <h1>Leaderboard</h1>
+
+        <ul id="leaderboard" class="leaderboard"></ul>
+        
+    </div>
+
+    <h1>
+        <a href="https://www.fosteringlinux.com/">Made By :- Foxians "For - Foxians"&#9829;
+        </a>
+    </h1>
+
+    <button id="logout" onclick="logout()">Logout</button>
+
+    <button id="restart" onclick="restart()">Play Again</button>
+   
+</body>
+
+</html>

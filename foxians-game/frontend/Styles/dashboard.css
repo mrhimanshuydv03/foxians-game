@@ -1,0 +1,193 @@
+body {
+    background-image: url(/assets/pxfuel.jpg);
+    background-size: cover;
+}
+h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px; /* Adjust as needed */
+    color: #ffffff; /* Adjust color as needed */
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container h1 {
+    color: #ccc;
+}
+
+div img {
+    background-color: #fff;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    
+}
+
+.container {
+    max-width: 800px; /* Adjust the max-width to your preference */
+    margin: 0px auto; /* Add more margin for spacing */
+    padding: 30px;
+    border: 2px solid #dfd6d6;
+    color: red;
+    border-radius: 15px;
+    
+    opacity: 1.9;
+    margin-bottom: 20px;
+}
+.attempt-container {
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #dfd6d6;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.current-attempt-data {
+    font-size: 20px;
+}
+#current-attempt div {
+    display: flex;
+    justify-content: space-around;
+    color: #312b2b;
+}
+.current-attempt-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.milestone-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#dashboard-wish-msg {
+    color: rgb(247, 241, 241);
+     font-size: 50px;   
+}
+
+.single-stone {
+    margin: 25px 5px;
+    background: rgba(245, 242, 242, 0.493);
+    color: black;
+    border-radius: 10px;
+}
+.single-stone-number {
+    background: white;
+    color: rgb(41, 28, 28);
+    font-size: 25px;
+
+    padding: 10px;
+    border-radius: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #312b2b; /* Adjust the color to improve readability */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.leaderboard {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+
+}
+#leaderboard{
+    color: black;
+}
+
+
+
+.leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f5f5f5;
+    background: transparent;
+    color: #ccc;
+}
+
+.leaderboard li:last-child {
+    border-bottom: none;
+}
+
+.player-name {
+    flex: 1;
+    font-weight: bold; /* Make player names bold for emphasis */
+    color: rgb(19, 18, 18);
+}
+
+.player-score {
+    flex-basis: 100px;
+    text-align: right;
+    color: rgb(19, 18, 18);
+}
+
+
+.single-stone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.single-stone span {
+    align-self: start;
+    margin: 5px;
+}
+.milestone-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+#lead-container{
+ color: black;   
+}
+.container{
+    color:black;
+}
+
+
+#logout {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: rgb(222, 74, 103);
+    color: white;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 94vh;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flexbox;
+}
+#logout:hover{
+    background-color: red;
+}
+#restart {
+    
+    cursor: pointer;
+    color: black;
+    margin-top:130vh;
+    position:absolute;
+    right: 5px;
+    bottom:5px;
+    background: rgb(62, 233, 127);
+    margin-right: 140px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    display: flexbox;
+}
+#restart:hover{
+    background-color: rgb(24, 212, 24);
+}
+
+
